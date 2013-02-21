@@ -2,8 +2,8 @@
 use strict;
 use ElasticSearch;
 
-my $es_server = 'localhost:9200',
-    my $facet = $ARGV[0];
+my $es_server = 'localhost:9200';
+my $facet = $ARGV[0];
 if (!$facet) {die "Please supply a facet term.\n";}
 my $dt_period = $ARGV[1] || 'now-1h';
 
