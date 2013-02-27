@@ -2,7 +2,7 @@ facilefacet
 ===========
 
 Usage:
-faceter.pl &lt;facetfield&gt; <timeslice>
+faceter.pl &lt;facetfield&gt; &lt;timeslice&gt;
 
 Easy faceting of Elasticsearch indices with Perl. 
 
