@@ -1,12 +1,12 @@
 facilefacet
 ===========
-Easy faceting of Elasticsearch indices with Perl. 
+Easy faceting of Elasticsearch indices with Perl. Requires the ElasticSearch.pm module.
 
 Usage:
 
 faceter.pl &lt;facetfield&gt; &lt;timeslice&gt;
 
-Simply run this script from the command line with one argument: facet field. You will be returned a list of the top ten terms, plus freqeuency.
+Simply run this script from the command line with one argument: facet field. You will be returned a list of the top ten terms, plus frequency.
 
 Examples:
 
